@@ -126,7 +126,7 @@ class App extends Component {
   render() {
     const { actions, value, isPlaced } = this.state;
     return (
-      <div className="app-containter">
+      <div className="app-container">
         <h1>Robot on Table Simulator</h1>
         <input
           className="command-box"
